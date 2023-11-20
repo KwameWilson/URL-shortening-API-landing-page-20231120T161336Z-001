@@ -113,4 +113,58 @@ header a:nth-child(4) {
 
 section.statistics {
     background: #EFF1F7;
+    padding: 204px 165px 120px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.shorten {
+    background: url(/images/input-bg.svg);
+    padding: 52px 65px;
+    border-radius: 10px;
+    width: 1110px;
+    position: absolute;
+    left: -2px;
+    top: -85px;
+}
+
+section.statistics h2:nth-child(2) {
+    border: 2px solid red;
+    color: #34313D;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+section.statistics h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.123px;
+    width: 540px;
+    margin: 0 auto;
+}
+
+.statistics .btn.btn-blue {
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.statistics input[type="text"] {
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 32px;
+    width: 769px;
+
+}
+
+.statistics input[placeholder="Shorten a link here..."] {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
 }
