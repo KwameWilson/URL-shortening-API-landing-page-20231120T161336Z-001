@@ -111,10 +111,18 @@ header a:nth-child(4) {
     height: 482px;
 }
 
-section.statistics {
+main {
     background: #EFF1F7;
+}
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+section.statistics {
     padding: 204px 165px 120px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 }
 
@@ -129,7 +137,7 @@ section.statistics {
 }
 
 section.statistics h2:nth-child(2) {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #34313D;
     text-align: center;
     font-size: 40px;
