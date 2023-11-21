@@ -251,6 +251,8 @@ section.grid {
     text-align: center;
     background: url(/images/footer-top-bg.svg);
     /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: -1px -110px;
     padding: 57px 0;
     height: 250px;
 }
